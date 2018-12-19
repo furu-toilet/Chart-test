@@ -4,7 +4,12 @@
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">
 
-    // ライブラリのロード
+    
+</script>
+</head>
+<body>
+  
+  // ライブラリのロード
     // name:visualization(可視化),version:バージョン(1),packages:パッケージ(corechart)
       google.load('visualization', '1', {'packages':['corechart']});
 
@@ -60,9 +65,6 @@
 
 
  }
-</script>
-</head>
-<body>
 
   <!--  グラフの描画エリア -->
   <div id="chart_div1" style="width: 100%; height: 350px"></div>
